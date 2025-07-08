@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../swiper2/loginpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.elementor-shortcode{
+    margin-top: 50px;
+}
+
+
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 45%;
+}
+.gap{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        margin: 50px 0px !important;
+        height: 100vh;
+}
+.form{
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    cursor :default;
+    display :inline-block;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height :26.55px;
+    line-height: 26.56px;
+    margin-bottom: 5px;
+    text-align :left;
+    text-size-adjust :100%;
+}
+.elementor-element-7436fd81 > .elementor-widget-container {
+    margin: 2em 0em 2em 0em;
+    padding: 0px 0px 0px 0px;
+}
+.box{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.bgcolor{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0px 35px;
+    height: 110vh;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.pmp_payment_bg{
+    border: 1px solid #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.subs p{
+    display: inline !important;
+    padding: 0px 80px 0px 0px;
+}
+
+.pay-box{
+    display:grid;
+    grid-template-columns:50% 50%;
+    margin: 20px 0px;
+}
+
+.cardb a{
+text-decoration: none;
+color: #fff;
+}
+
+.cardb a:hover{
+    color:red;
+    }
+.cardb{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.cardb i{ 
+    font-size: 25px;
+}
+
+.cardb p{ 
+    font-size: 19px;
+    margin-bottom: 0px !important;
+}
+
+.bank a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.bank{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.bank a:hover{
+    color:red !important;
+}
+
+.bank i{ 
+    font-size: 25px;
+}
+
+.bank p{ 
+    font-size: 19px;
+    margin-bottom: 0px !important;
+}
+hr{
+    margin: 10px 0px  ;
+}
+
+.carddetails input{
+    height: 60px;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    background-color:transparent;
+    border-radius: 15px;
+}
+.carddetails {
+   position: relative;
+}
+.con{
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top:20%;
+    right: 10%;
+}
+
+.con img{
+    width: 40px;
+}
+
+
+.carddate{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;
+}
+
+.carddate input{
+    height: 60px;
+    color: #fff;
+    padding: 15px;
+    width: 50%;
+    background-color: transparent !important;
+    font-size: 20px;
+    background-color:transparent;
+    border-radius: 15px;
+}
+.button{
+    margin: 50px;
+    text-align: end;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 15px;
+
+}
+.holder{
+    margin-bottom: 20px;
+}
+.holder input{
+    height: 60px;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    background-color: transparent !important;
+    font-size: 20px;
+    background-color:transparent;
+    border-radius: 15px;
+}
+.bank2d{
+     display: none;
+}
+

@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../swiper2/loginpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgcolor{
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 50px 35px;
+    width: 100%;
+    border-radius: 50px;
+}
+.align-item-center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.conte{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.subs p{
+    display: inline !important;
+    padding: 0px 120px 0px 0px;
+}
+.subs  img{
+    width: 45px;
+    padding: 0px 5px;
+}
+.subs h1{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 5px;
+    display: inline-block;
+}
+.subd{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px 0px;
+}
+.subs h3{
+    color: #fff;
+}
+
+.conte2{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-bottom: none;
+}
+.conte2 p{
+    width: 30%;
+    color:white !important;
+    font-size: 19px !important;
+    padding: 0px 10px !important;
+}
+.im{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.amountd{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 5px;
+}
+.pay{
+    text-align: center;
+    border-right: 1px solid #ffe;
+}
+
+.pay:last-child{
+  border: none !important;
+}
+
+span{
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(205, 205, 194);
+    font-size: 20px !important;
+}
+input{
+    background-color: transparent !important;
+    height: 60px;
+    width: 200px !important;
+    color: #fff !important;
+    padding: 13px !important;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.spa{
+    color: rgb(255, 255, 255);
+}
+.enter {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.enter h2{
+    font-size: 28px !important;
+}
+.enter p{
+    font-size: 19px !important;
+    color: rgba(255, 255, 238, 0.903);
+}
+
+.btn-outline-success{
+    height: 60px;
+    background-color: green !important;
+    color: white !important;
+    border: 1px solid green;
+}
+.ser2f a{
+    text-decoration: none;
+    background-color: green;
+    padding: 19.5px 15px;
+    color: white;
+    border-left: 1px solid #fff;
+}
+.ser2f{
+    border: 1px solid #fff;
+    width: fit-content;
+}
+
+.atag{
+    text-decoration: none;
+    color: #ffe;
+    font-size: 19px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+hr{
+    margin: 10px 0px  ;
+}
+
+
+@media only screen and (max-width:450px)and (min-width:360px)  {
+.fle{
+    padding: 0px 10px 0px 0px !important;
+
+}
+.subs h3 {
+    color: #fff;
+    font-size: 19px !important;
+}
+.subs p {
+    color: #fff;
+    font-size: 14px !important;
+}
+.subd img{
+    width: 40px !important;
+}
+.subd h1{
+font-size: 20px;
+}
+.pay span{
+    font-size: 16px !important;
+    line-height: 17px !important;
+}
+.enter h2{
+    font-size: 21px !important;
+}
+.spa{
+    font-size: 15px !important;
+}
+.enter p{
+    font-size: 14px !important;
+}
+input {
+    background-color: transparent !important;
+    height: 40px;
+    width: 120px !important;
+    color: #fff !important;
+    padding: 13px !important;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.ser2f a {
+    text-decoration: none;
+    background-color: green;
+    padding: 10.4px 15px;
+    color: white;
+    border-left: 1px solid #fff;
+}
+.ser2f {
+    border: 1px solid #fff;
+    width: fit-content;
+}
+.atag {
+    text-decoration: none;
+    color: #ffe;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 30px;
+}
+hr{
+    margin: 3px !important;
+}
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px)and (min-width:451px)  {
+    .fle{
+        padding: 0px 10px 0px 0px !important;
+    
+    }
+    .subs h3 {
+        color: #fff;
+        font-size: 19px !important;
+    }
+    .subs p {
+        color: #fff;
+        font-size: 14px !important;
+    }
+    .subd img{
+        width: 40px !important;
+    }
+    .subd h1{
+    font-size: 20px;
+    }
+    .pay span{
+        font-size: 16px !important;
+        line-height: 17px !important;
+    }
+    .enter h2{
+        font-size: 21px !important;
+    }
+    .spa{
+        font-size: 15px !important;
+    }
+    .enter p{
+        font-size: 14px !important;
+    }
+    input {
+        background-color: transparent !important;
+        height: 40px;
+        width: 120px !important;
+        color: #fff !important;
+        padding: 13px !important;
+        border: none;
+        font-size: 20px;
+        outline: none;
+    }
+    .ser2f a {
+        text-decoration: none;
+        background-color: green;
+        padding: 10.4px 15px;
+        color: white;
+        border-left: 1px solid #fff;
+    }
+    .ser2f {
+        border: 1px solid #fff;
+        width: fit-content;
+    }
+    .atag {
+        text-decoration: none;
+        color: #ffe;
+        font-size: 12px;
+        display: inline-block;
+        margin-top: 20px;
+        padding-right: 40px;
+    }
+    hr{
+        margin: 3px !important;
+    }
+    
+    
+    
+    
+    }

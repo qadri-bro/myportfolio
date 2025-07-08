@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.banner{
+    margin-top: 40px;
+background-image: url(../swiper2/loginpage.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 40vh;
+width: 100%;
+z-index: 4;
+}
+.layerst{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 40vh;
+    z-index: 10;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.con h1{
+    color :rgb(255, 255, 255);
+    display: block;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-size: 55.512px;
+    font-stretch: 75%;
+    font-weight: 500;
+    height :60.6125px;
+    letter-spacing: -1.01024px;
+    line-height: 60.6144px;
+    overflow-wrap: break-word;
+    text-align :center;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+}
+
+.con p{
+    color:rgb(229, 9, 20);
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+ 
